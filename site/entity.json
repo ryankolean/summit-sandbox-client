@@ -1,0 +1,54 @@
+{
+  "name": "Shellfish Bar",
+  "type": "Restaurant",
+  "description": "An oyster bar and restaurant in Traverse City, Michigan.",
+  "url": "https://shellfish.example/",
+  "email": "hello@shellfish.example",
+  "telephone": "+1-231-555-0199",
+  "locations": [
+    {
+      "address": {
+        "street": "1 Front Street",
+        "locality": "Traverse City",
+        "region": "MI",
+        "postalCode": "49686",
+        "country": "US"
+      },
+      "geo": {
+        "lat": 44.76,
+        "lng": -85.61
+      },
+      "hours": [
+        {
+          "days": [
+            "Th",
+            "Fr",
+            "Sa",
+            "Su",
+            "Mo"
+          ],
+          "opens": "16:30",
+          "closes": "21:30"
+        }
+      ]
+    }
+  ],
+  "menus": [
+    {
+      "name": "Menu",
+      "url": "https://shellfish.example/menu.html",
+      "sections": []
+    }
+  ],
+  "faq": [
+    {
+      "question": "Do you take reservations?",
+      "answer": "By text for parties of 2 to 5."
+    }
+  ],
+  "team": [],
+  "gallery": [],
+  "sameAs": [
+    "https://www.instagram.com/shellfish.example"
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "name": "Shellfish Bar",
+  "colors": {
+    "bg": "#E8E3CE",
+    "fg": "#2E241A",
+    "muted": "#6A4F1B",
+    "primary": "#2B2117",
+    "onPrimary": "#F1EDDD",
+    "accent": "#D3A75A"
+  },
+  "fonts": {
+    "display": {
+      "family": "Fraunces",
+      "fallback": "Georgia, serif"
+    },
+    "body": {
+      "family": "Jost",
+      "fallback": "system-ui, sans-serif"
+    }
+  },
+  "radius": "2px"
+}
