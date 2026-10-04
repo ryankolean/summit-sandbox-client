@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "client": "summit-sandbox-client",
+  "mode": "new",
+  "stack": {
+    "name": "astro",
+    "reason": "Content site: static HTML by default, best crawlability, React only where needed."
+  },
+  "host": {
+    "name": "cloudflare-pages",
+    "reason": "Default for new sites: _redirects, _headers, DNS, analytics and Turnstile in one account."
+  },
+  "liveUrl": "https://shellfish.example/",
+  "pages": [
+    {
+      "path": "/",
+      "title": "Shellfish Bar",
+      "purpose": "Who they are, when they are open, how to get there.",
+      "source": "new",
+      "sections": [
+        {
+          "kind": "component",
+          "id": "hero",
+          "component": "hero",
+          "version": "0.2.0",
+          "config": {
+            "eyebrow": "Traverse City, MI",
+            "title": "Shellfish Bar",
+            "lede": "An oyster bar and restaurant in Traverse City, Michigan.",
+            "primaryCta": {
+              "label": "Hours and location",
+              "href": "#visit"
+            }
+          }
+        }
+      ]
+    }
+  ]
+}
