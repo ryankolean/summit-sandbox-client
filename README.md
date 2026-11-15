@@ -9,7 +9,7 @@ intake preview from them on every push to `main`.
 ## Commands
 
 ```bash
-npm install --global github:ryankolean/summit-components#cli-v0.1.0
+npm install --global github:ryankolean/summit-components#cli-v0.3.0
 summit preview . --out _preview       # build the intake preview
 summit verify-split .                 # prove no private intake is committed
 summit check gate _preview --mode preview

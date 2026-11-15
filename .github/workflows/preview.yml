@@ -25,7 +25,7 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: 22
-      - run: npm install --global github:ryankolean/summit-components#cli-v0.1.0
+      - run: npm install --global github:ryankolean/summit-components#cli-v0.3.0
       - run: summit preview . --out _preview
       - uses: actions/upload-pages-artifact@v3
         with:
